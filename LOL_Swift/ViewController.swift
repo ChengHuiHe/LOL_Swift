@@ -4,7 +4,8 @@
 //
 //  Created by Chenghui on 16/3/16.
 //  Copyright © 2016年 Chenghui. All rights reserved.
-//
+// 如果你喜欢，顺便给个star！！！谢谢！
+// https://github.com/ChengHuiHe/LOL_Swift.git
 
 import UIKit
 
