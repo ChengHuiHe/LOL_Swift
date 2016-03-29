@@ -16,6 +16,7 @@
         return
     }
 ##View
+  - 记得注册，和xib 的identifier 一致！
     // 注册cell
     tableView.registerNib(UINib.init(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "MyTableViewCell")
 
