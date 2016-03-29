@@ -78,5 +78,18 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return 90;
     }
     
+    
+    func tableView( tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        //删除数据源的对应数据
+        heroArray.removeObjectAtIndex(indexPath.row)
+        
+        //删除对应的cell
+        self.tableView?.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Top)
+        
+    }
+    
+
+    
 }
 

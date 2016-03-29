@@ -22,7 +22,7 @@ class Model: NSObject {
         setValuesForKeysWithDictionary(dict)
     }
     
-    // 重写方法
+    // 重写方法, 重写方法防止奔溃
     override func setValue(value: AnyObject?, forUndefinedKey key: String) {
         print("这个方法保证程序不退出的")
         return
