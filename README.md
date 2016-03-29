@@ -1,6 +1,7 @@
 # LOL_Swift
 一个简单的swift小项目，适合入门者学习！采用MVC开发。
  https://github.com/ChengHuiHe/LOL_Swift/raw/master/hero.png
+
  ## Model 
   init(dict : [String: AnyObject]) {
         
@@ -14,7 +15,7 @@
         print("这个方法保证程序不退出的")
         return
     }
-- 多多
+
    // 注册cell
     tableView.registerNib(UINib.init(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "MyTableViewCell")
 
