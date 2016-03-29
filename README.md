@@ -17,7 +17,8 @@
     }
 ##View
   - 记得注册，和xib 的identifier 一致！
-    // 注册cell
-    tableView.registerNib(UINib.init(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "MyTableViewCell")
+ 
+      // 注册cell
+      tableView.registerNib(UINib.init(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "MyTableViewCell")
 
 ![image](https://github.com/ChengHuiHe/LOL_Swift/raw/master/hero.png)
