@@ -4,7 +4,7 @@
 
  ## Model 
   -
-  init(dict : [String: AnyObject]) {
+    init(dict : [String: AnyObject]) {
         
         super.init()
         // 字典转模型
