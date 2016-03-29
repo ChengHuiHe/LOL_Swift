@@ -3,6 +3,7 @@
  https://github.com/ChengHuiHe/LOL_Swift/raw/master/hero.png
 
  ## Model 
+  -
   init(dict : [String: AnyObject]) {
         
         super.init()
@@ -16,7 +17,7 @@
         return
     }
 
-   // 注册cell
+    // 注册cell
     tableView.registerNib(UINib.init(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "MyTableViewCell")
 
 ![image](https://github.com/ChengHuiHe/LOL_Swift/raw/master/hero.png)
